@@ -1,0 +1,41 @@
+/* Step 3 */
+body{
+background-color: lightgray;
+}
+
+/* Step 5 */
+.head{
+color: darkblue;
+}
+
+/* Step 6 */
+#bgline{
+background-color: yellow;
+}
+
+/* Step 7 */
+h2.head{
+color: red;
+}
+
+/* Step 8 */
+p{
+color: white;
+}
+
+/* Step 9 */
+#para{
+color: green;
+}
+
+/* Step 10 */
+#para span{
+color: black;
+font-size: 20px;
+}
+
+/* Step 11 */
+a{
+text-decoration: underline;
+color: blue;
+}
