@@ -1,45 +1,39 @@
-# CSS Selectors Assignment
+Task 3 – CSS Units, Box Model, Fonts
 
-This project demonstrates the use of **CSS selectors** by connecting an external stylesheet to an HTML file and applying different styles using class, id, and element selectors.
+Description
+This project demonstrates the use of CSS Units, Box Model, and basic styling to create a simple webpage containing an image and a button. The layout uses viewport units (vw and vh) to maintain proper spacing from all sides and to ensure that the page does not scroll.
 
-## Files in the Project
+Project Files
+The project contains three files:
+index.html – Contains the HTML structure of the webpage.
+style.css – Contains all the CSS styling for layout and design.
+README.md – Contains the documentation for the project.
 
-* **index.html** – Contains the webpage structure including headings, paragraphs, and lists.
-* **style.css** – Contains the CSS styling rules applied to the HTML elements.
+Features
+The webpage has a proper HTML structure with a linked external CSS file.
+An image is displayed inside a container div.
+A button is added for user interaction.
+The layout maintains 25% spacing from the left and right sides of the screen.
+The layout maintains 10% spacing from the top and bottom of the screen.
+Viewport units such as vw and vh are used for responsive design.
+The box-sizing property is used for proper box model handling.
+The page layout is designed so that it does not scroll.
 
-## Features Implemented
+CSS Concepts Used
+Viewport Units – vw represents viewport width and vh represents viewport height.
+Box Model – margin, padding, border, and content structure are used to control spacing and layout.
+Gradient Background – used to style the button for better appearance.
 
-1. Created `index.html` and `style.css` files.
-2. Linked the external CSS file to the HTML document.
-3. Set a background color for the webpage.
-4. Created three heading elements with the class **head**.
-5. Applied **dark blue text color** to all elements with class `head`.
-6. Added a background color to the second heading using the id **bgline**.
-7. Changed the text color of the second heading to **red**.
-8. Created three paragraphs with **white text color** using only the `p` tag selector.
-9. Customized the second paragraph using the id **para** to have **green text**.
-10. Styled the word **"paragraph"** inside the second paragraph with **black text** and **larger font size**.
-11. Created two lists and styled the **"here"** links without using inline CSS.
+Constraints Followed
+Flexbox was not used in the layout.
+Overflow hidden was not used.
+Position relative or absolute was not used.
+Viewport units were used for spacing and layout control.
+All HTML tags are properly closed.
 
-## CSS Selectors Used
+How to Run the Project
+Place the index.html and style.css files in the same directory.
+Open the index.html file in any web browser to view the webpage.
 
-* **Element Selector** – `p`, `body`, `a`
-* **Class Selector** – `.head`
-* **ID Selector** – `#bgline`, `#para`
-* **Descendant Selector** – `#para span`
-
-## Technologies Used
-
-* **HTML**
-* **CSS**
-
-## How to Run the Project
-
-1. Download or clone the project.
-2. Ensure both files (`index.html` and `style.css`) are in the same folder.
-3. Open `index.html` in any web browser.
-4. The styles from `style.css` will automatically be applied.
-
-## Author
-
-Created as part of a **CSS Selectors practical assignment**.
+Conclusion
+This task demonstrates how CSS viewport units and the box model can be used to create a responsive and well-structured webpage layout without using advanced positioning or flexbox.
